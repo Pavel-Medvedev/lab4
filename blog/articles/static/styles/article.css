@@ -4,25 +4,30 @@ body {
     font-family: Tahoma, Arial, sans-serif; 
 }
 .header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 25px;
+    display: flex;
+}
+.header img{
+    margin-left: 5%;
     width: 200px;
+}
+.header a{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 5%;
+    height: max-content;
+    font-weight: bold;
 }
 body a {
     color: rgb(160,82,45);
 }
-body a:visited {
-    color: rgb(160,82,45);
-}
-body a:active {
+body a:link, a:visited, a:active, a:focus {
     color: rgb(160,82,45);
 }
 p {
     align="justify";
 }
 .post-title {
-    text-decoration: underline;
     text-decoration: underline;
     margin-left: 5%;
     margin-right: auto;

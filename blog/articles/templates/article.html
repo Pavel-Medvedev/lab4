@@ -8,10 +8,11 @@
 <body>
     <div class="header">
         <img src="{{ STATIC_URL }}/static/content/Logo.jpg"/>
+        <a href="/">Все статьи</a>
     </div>
     <div class="archive">
         <div class="one-post">
-            <a href=""><h2 class="post-title"><srtong>{{ post.title }}<srtong/></h2><a/>
+            <h2 class="post-title"><srtong>{{ post.title }}<srtong/></h2>
             <div class="article-info">
                  <div class="article-author">{{ post.author.username }}</div>
                  <div class="article-created-date">{{ post.created_date }}</div>

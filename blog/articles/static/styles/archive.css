@@ -8,6 +8,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 200px;
+    margin-top: 25px;
 }
 body a:link, a:visited, a:active, a:focus {
     color: rgb(160,82,45);
